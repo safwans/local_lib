@@ -7,7 +7,8 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Genre(models.Model):
-  name = models.CharField(max_length=200, help_text="Enter book genre")
+  id = models.BigIntegerField(primary_key = True)
+  name = models.CharField(max_length=200)
   
   class Meta:
     db_table = 'genre'
