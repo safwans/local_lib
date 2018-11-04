@@ -25,7 +25,7 @@ SECRET_KEY = 'scf#%a)yey%3az-sknh$vy-1pitmq)64aut+4hp+%&i+7jdl@j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['frozen-eyrie-50483.herokuapp.com',]
 
 
 # Application definition
